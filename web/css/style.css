@@ -1,0 +1,104 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 8, 2024, 10:19:26 PM
+    Author     : ASUS
+*/
+
+/*
+    css cho file login và register
+*/
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+    background-color: #292f36;
+}
+
+.container {
+    display: inline-block;
+    background-color: #e0dbd8;
+    margin-top: 50px;
+    padding: 30px 5%;
+    border-radius: 10%;
+    box-shadow: 10px 20px rgb(167, 149, 149);
+}
+
+.info h1 {
+    color: #292f36;
+    margin-bottom: 30px;
+}
+
+.info input{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 45px 5px 5px;
+    border-width: 1px;
+    border-color: #a41f13;
+}
+
+a{
+    color: #292f36;
+}
+
+.who{
+    display: flex;
+    justify-content: space-around;
+}
+
+.who a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 5px 8%;
+    margin-bottom: 10px;
+}
+
+.log{
+    border-radius: 50px;
+    border-bottom-right-radius: 0;
+    color: whitesmoke;
+    background-color: #292f36;
+}
+
+.emp_log{
+    border-radius: 50px;
+    border-bottom-left-radius: 0;
+    color: whitesmoke;
+    background-color: #292f36;
+}
+
+.smButton input {
+    display: inline-block;
+    background-color: #a41f13;
+    color: #e0dbd8;
+    padding:8px 30%;
+    margin-top: 20px;
+}
+
+.regis{
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.regis a{
+    text-decoration:none;
+    color:#a41f13;
+}
+
+.back a{
+    text-decoration:none;
+    color:#a41f13;
+    display: inline-block;
+    background-color: #a41f13;
+    color: #e0dbd8;
+    border-radius: 5px;
+    padding: 8px 29.5%;
+    font-size: small;
+}
